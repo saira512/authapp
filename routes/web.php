@@ -30,9 +30,7 @@ Route::get('/','MyauthController@welcomepage');
 Route::get('show','MyauthController@showregform')->name('show');
 Route::get('showlogin','MyauthController@showloginform')->name('showlogin');
 Route::get('useraccount',function(){
-  
    return view('useraccount');
-
  })->name('useraccount');
 
 
